@@ -84,3 +84,45 @@ git push origin main <br/>
 
 git push -u origin main <br/>
 git push
+
+<h1>Branch Commands</h1>
+
+git branch (to check branch)
+git branch -M main (to rename branch) <br/>
+git checkout <-branch name-> (to navigate) <br/>
+git checkout -b <-new branch name-> (to create new branch) <br/>
+git branch -d <-branch name-> (to delete branch) <br/>
+
+Merging Code
+way 1
+git diff <-branch name-> (to compare commits, branches, files & more)
+git merge <-branch name-> (to merge 2 branches)
+
+way 2
+create a PR (Pull Request - It lets you tell others about changes you have pushed to a branch in a repository on GitHub)
+
+Pull Command
+used to fetch and download content from a remote repo and immediately update the local repo to match that content.
+git pull origin main
+
+Resolving Merge Conflicts
+An event that take place when Git is usable to immediately resolve differences in code between two commits.
+
+Undoing Changes
+Case 1: staged changes
+git reset <-file name->
+git reset
+
+Case 2: Commited changes (for 1 commit)
+git reset HEAD~1
+
+Case 3: commited changes (for many commits)
+git reset <-commit hash->
+git reset --hard <-commit hash->
+
+Fork
+a fork is a new repository that shares code and visibility settings with the original "upstream" repository.
+Fork is a rough copy.
+
+<h1>Get  log file of commit</h1>
+git log
