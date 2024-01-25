@@ -44,3 +44,43 @@ git clone <!-- link -->
 # Status: display the state of the code
 
 git status
+
+change: modified
+new file: untracked
+add: staged
+after add, commit happens (unchanged)
+
+untracked: new files that git does not yet tracked.
+modified: changed
+staged: file is ready to be commited
+unmodified: unchanged
+
+# Add & Commit
+
+add: adds new or changed file in your working directory to the Git staging area.
+git add <!-- file name -->
+git add . <!-- add all files>
+
+commit: It is record of change
+git commit -m "some message"
+
+# Push Command
+
+Transmit local branch commits to the remote repository branch
+git push origin main
+git push [alias] [branch]
+
+# Init Command
+
+init - used to create a new git repo
+git init
+git remote add origin <!-- link -->
+git remote -v (to verify remote)
+git branch (to check branch)
+git branch -M main (to rename branch)
+git push origin main
+
+# -u is written to specify upstrem. That meanswe will only going to to push on main branch. Now only git push should be written instead of git push origin main
+
+git push -u origin main
+git push
