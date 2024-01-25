@@ -1,3 +1,7 @@
+# Git Commands to learn and use
+
+Author: Bidyanand Mishra
+
 # defination
 
 Git - Version Control System (tools) which helps to track changes in the code.
@@ -6,7 +10,17 @@ GitHub - Website / Repository that allows developers to store and manage code us
 # check git version
 
 git --version
+
+# list files
+
 ls
+
+# list hidden files
+
+ls -a
+
+# present woking directory
+
 pwd
 
 # config username and email
