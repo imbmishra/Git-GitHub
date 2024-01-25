@@ -2,60 +2,60 @@
 
 Author: Bidyanand Mishra <br/>
 
-# defination
+</h2>defination</h2>
 
 Git - Version Control System (tools) which helps to track changes in the code. <br/>
 GitHub - Website / Repository that allows developers to store and manage code using Git. <br/>
 
-# check git version
+<h2>check git version</h2>
 
 git --version <br/>
 
-# list files
+<h2>list files</h2>
 
 ls <br/>
 
-# list hidden files
+<h2>list hidden files</h2>
 
 ls -a <br/>
 
-# present woking directory
+<h2>present woking directory</h2>
 
 pwd <br/>
 
-# config username and email
+<h2>config username and email</h2>
 
 git config --global user.name "Name" <br/>
 git config --global user.email "Email-ID" <br/>
 
-# list details
+<h2>list details</h2>
 
 git config --list <br/>
 
-# Clone and Status -->
+<h2>Clone and Status --></h2>
 
 local - laptop/PC <br/>
 remote - github repisoritory <br/>
 
-# Clone: Cloning a repository on our local machine
+<h2>Clone: Cloning a repository on our local machine</h2>
 
 git clone <- link -> <br/>
 
-# Status: display the state of the code
+<h2>Status: display the state of the code</h2>
 
 git status <br/>
 
-change: modified <br/>
-new file: untracked <br/>
-add: staged <br/>
-after add, commit happens (unchanged) <br/>
+<b>change:</b> modified <br/>
+<b>new file:</b> untracked <br/>
+<b>add:</b> staged <br/>
+after add, <b>commit</b> happens (unchanged) <br/>
 
-untracked: new files that git does not yet tracked. <br/>
-modified: changed <br/>
-staged: file is ready to be commited <br/>
-unmodified: unchanged <br/>
+<b>untracked:</b> new files that git does not yet tracked. <br/>
+<b>modified:</b> changed <br/>
+<b>staged:</b> file is ready to be commited <br/>
+<b>unmodified:</b> unchanged <br/>
 
-# Add & Commit
+<h2>Add & Commit</h2>
 
 add: adds new or changed file in your working directory to the Git staging area. <br/>
 git add <- file name -> <br/>
@@ -64,13 +64,13 @@ git add . < add all files > <br/>
 commit: It is record of change <br/>
 git commit -m "some message" <br/>
 
-# Push Command
+<h2>Push Command</h2>
 
 Transmit local branch commits to the remote repository branch <br/>
 git push origin main <br/>
 git push [alias] [branch] <br/>
 
-# Init Command
+<h2>Init Command</h2>
 
 init - used to create a new git repo <br/>
 git init <br/>
@@ -85,7 +85,7 @@ git push origin main <br/>
 git push -u origin main <br/>
 git push
 
-<h1>Branch Commands</h1>
+<h2>Branch Commands</h2>
 
 git branch (to check branch)
 git branch -M main (to rename branch) <br/>
@@ -93,36 +93,36 @@ git checkout <-branch name-> (to navigate) <br/>
 git checkout -b <-new branch name-> (to create new branch) <br/>
 git branch -d <-branch name-> (to delete branch) <br/>
 
-Merging Code
+<h2>Merging Code</h2>
 way 1
-git diff <-branch name-> (to compare commits, branches, files & more)
-git merge <-branch name-> (to merge 2 branches)
+git diff <-branch name-> (to compare commits, branches, files & more) <br/>
+git merge <-branch name-> (to merge 2 branches) <br/>
 
 way 2
 create a PR (Pull Request - It lets you tell others about changes you have pushed to a branch in a repository on GitHub)
 
 <h2>Pull Command</h2>
-used to fetch and download content from a remote repo and immediately update the local repo to match that content.
+used to fetch and download content from a remote repo and immediately update the local repo to match that content. <br/>
 git pull origin main
 
 <h2>Resolving Merge Conflicts</h2>
 An event that take place when Git is usable to immediately resolve differences in code between two commits.
 
 <h2>Undoing Changes</h2>
-Case 1: staged changes
-git reset <-file name->
-git reset
+Case 1: staged changes <br/>
+git reset <-file name-> <br/>
+git reset <br/>
 
 Case 2: Commited changes (for 1 commit)
-git reset HEAD~1
+git reset HEAD~1 <br/>
 
-Case 3: commited changes (for many commits)
-git reset <-commit hash->
-git reset --hard <-commit hash->
+Case 3: commited changes (for many commits) <br/>
+git reset <-commit hash-> <br/>
+git reset --hard <-commit hash-> <br/>
 
 <h2>Fork</h2>
-a fork is a new repository that shares code and visibility settings with the original "upstream" repository.
-Fork is a rough copy.
+a fork is a new repository that shares code and visibility settings with the original "upstream" repository. <br/>
+Fork is a rough copy. <br/>
 
 <h2>Get  log file of commit</h2>
 git log
