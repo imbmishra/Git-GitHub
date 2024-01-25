@@ -101,14 +101,14 @@ git merge <-branch name-> (to merge 2 branches)
 way 2
 create a PR (Pull Request - It lets you tell others about changes you have pushed to a branch in a repository on GitHub)
 
-Pull Command
+<h2>Pull Command</h2>
 used to fetch and download content from a remote repo and immediately update the local repo to match that content.
 git pull origin main
 
-Resolving Merge Conflicts
+<h2>Resolving Merge Conflicts</h2>
 An event that take place when Git is usable to immediately resolve differences in code between two commits.
 
-Undoing Changes
+<h2>Undoing Changes</h2>
 Case 1: staged changes
 git reset <-file name->
 git reset
@@ -120,9 +120,9 @@ Case 3: commited changes (for many commits)
 git reset <-commit hash->
 git reset --hard <-commit hash->
 
-Fork
+<h2>Fork</h2>
 a fork is a new repository that shares code and visibility settings with the original "upstream" repository.
 Fork is a rough copy.
 
-<h1>Get  log file of commit</h1>
+<h2>Get  log file of commit</h2>
 git log
