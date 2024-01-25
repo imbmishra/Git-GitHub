@@ -1,6 +1,6 @@
 # Git Commands to learn and use
 
-Author: Bidyanand Mishra <br/>
+<h1> Author: Bidyanand Mishra </h1>
 
 <h2>defination</h2>
 
