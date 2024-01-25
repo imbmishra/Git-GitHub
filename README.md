@@ -61,7 +61,8 @@ add: adds new or changed file in your working directory to the Git staging area.
 git add <- file name -> <br/>
 git add . < add all files > <br/>
 
-commit: It is record of change <br/>
+<h2>Commit </h2>
+It is record of change <br/>
 git commit -m "some message" <br/>
 
 <h2>Push Command</h2>
@@ -80,7 +81,7 @@ git branch (to check branch) <br/>
 git branch -M main (to rename branch) <br/>
 git push origin main <br/>
 
-# -u is written to specify upstrem. That meanswe will only going to to push on main branch. Now only git push should be written instead of git push origin main
+<h2>-u is written to specify upstrem. That meanswe will only going to to push on main branch. Now only git push should be written instead of git push origin main </h2>
 
 git push -u origin main <br/>
 git push
@@ -94,11 +95,11 @@ git checkout -b <-new branch name-> (to create new branch) <br/>
 git branch -d <-branch name-> (to delete branch) <br/>
 
 <h2>Merging Code</h2>
-way 1
+<h3>way 1</h3>
 git diff <-branch name-> (to compare commits, branches, files & more) <br/>
 git merge <-branch name-> (to merge 2 branches) <br/>
 
-way 2
+<h3>way 2</h3>
 create a PR (Pull Request - It lets you tell others about changes you have pushed to a branch in a repository on GitHub)
 
 <h2>Pull Command</h2>
@@ -109,14 +110,14 @@ git pull origin main
 An event that take place when Git is usable to immediately resolve differences in code between two commits.
 
 <h2>Undoing Changes</h2>
-Case 1: staged changes <br/>
+<h3>Case 1:</h3> staged changes <br/>
 git reset <-file name-> <br/>
 git reset <br/>
 
-Case 2: Commited changes (for 1 commit)
+<h3>Case 2:</h3> Commited changes (for 1 commit)
 git reset HEAD~1 <br/>
 
-Case 3: commited changes (for many commits) <br/>
+<h3>Case 3:</h3> commited changes (for many commits) <br/>
 git reset <-commit hash-> <br/>
 git reset --hard <-commit hash-> <br/>
 
